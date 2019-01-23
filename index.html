@@ -3,12 +3,14 @@
     <head>
       <meta charset="utf-8">
       <title>Sweater Weather</title>
-      <link rel="stylesheet" type="text/css" href='./lib/styles.css'>
-      <script type="text/javascript" src="./lib/scripts.js"></script>
+        <link rel="stylesheet" type="text/css" href='./lib/styles.css'>
+          <script type="text/javascript" src="./lib/scripts.js"></script>
+          <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+          <script src="main.bundle.js"></script>
     </head>
       <body>
         <div class='wrapper'>
-          <div class="item location">
+          <div class="location">
             <p> Location Summary </p>
               <div class="current temperature"></div>
               <div class="current summary"> </div>
@@ -23,7 +25,7 @@
               <a href="fetch call to favorites">Favorites</a>
           </div>
 
-          <div class="item details">
+          <div class="details">
             <p> Details </p>
               <div class="current summary"> </div>
               <div class="feels like">Feels Like:</div>
@@ -34,7 +36,7 @@
               <div class="late summary">Tonight:</div>
           </div>
 
-          <div class="item forecast">
+          <div class="forecast">
             <p> Forecast: </p>
               <div class="daily">
                 <div class="sunday">Sun</div>
@@ -46,11 +48,6 @@
                 <div class="saturday">Sat</div>
               </div>
           </div>
-        </div>
-
-        <a href="file path"><button class="default-button">GO TO OTHER PAGE</button></a>
-        
-        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-        <script src="main.bundle.js"></script>
+        </div>        
       </body>
   </html>
