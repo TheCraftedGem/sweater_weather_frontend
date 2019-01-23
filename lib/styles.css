@@ -26,20 +26,19 @@ h4 {
   background-color: rgb(102, 156, 255);
 }
 
-.item1 {
+.location {
   height: 300px;
   width: 2fr;
   border: .5px solid black;
-
 }
 
-.item2 {
+.details {
   border: .5px solid black;
   height: 2fr;
   width: 2fr;
 }
 
-.item3 {
+.forecast {
   border: .5px solid black;
   height: 420px;
   width: 1fr;
