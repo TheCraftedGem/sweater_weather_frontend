@@ -23,19 +23,24 @@ h4 {
   border: .5px solid black;
   outline-style: solid;
   outline-color:black;
+  background-color: rgb(102, 156, 255);
 }
 
 .item1 {
   height: 300px;
   width: 2fr;
+  border: .5px solid black;
+
 }
 
 .item2 {
+  border: .5px solid black;
   height: 2fr;
   width: 2fr;
 }
 
 .item3 {
+  border: .5px solid black;
   height: 420px;
   width: 1fr;
   grid-column: span 2;
