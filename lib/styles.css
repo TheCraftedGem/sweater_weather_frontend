@@ -32,6 +32,12 @@ h4 {
   background-color: rgb(102, 156, 255);
 }
 
+.input {
+  text-align: center;
+  top: 120px;
+  position: relative;
+}
+
 .details {
   border: .5px solid black;
   height: 2fr;
@@ -44,7 +50,7 @@ h4 {
   height: 420px;
   width: 1fr;
   grid-column: span 2;
-    background-color: rgb(102, 156, 255);
+  background-color: rgb(102, 156, 255);
 
 }
 

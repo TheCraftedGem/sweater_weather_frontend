@@ -9,12 +9,18 @@
             <script src="main.bundle.js"></script>
     </head>
       <body>
+
+        <div class="input">
+          <input id="city-state" type="text" placeholder="Ex: Denver,CO">
+          <button class="button" id="get-location" onclick="getLocation()">Get My Location</button>
+        </div>
+
         <div class='wrapper'>
 
           <div class="location">
             <p> Location Summary </p>
-              <div class="current temperature"></div>
-              <div class="current summary"> </div>
+              <div class="temperature">Temperature: </div>
+              <div class="summary"> </div>
               <div class="high"><h4>High:</h4></div>
               <div class="low"><h4>Low:</h4></div>
               <div class="city"><h4>City:</h4></div>
