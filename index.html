@@ -9,19 +9,25 @@
             <script src="main.bundle.js"></script>
     </head>
       <body>
+
+        <div class="input">
+          <input class="city-state" type="text" placeholder="Ex: Denver,CO">
+          <button class="button" class="get-location" onclick="weather.getLocation()">Get My Location</button>
+        </div>
+
         <div class='wrapper'>
 
           <div class="location">
             <p> Location Summary </p>
-              <div class="current temperature"></div>
-              <div class="current summary"> </div>
-              <div class="high"><h4>High:</h4></div>
-              <div class="low"><h4>Low:</h4></div>
-              <div class="city"><h4>City:</h4></div>
-              <div class="state"><h4>State:</h4></div>
-              <div class="country"><h4>Country:</h4></div>
-              <div class="time"><h4>Time:</h4></div>
-              <div class="date">Date:</div>
+              <div class="temperature">Temperature: </div>
+              <div class="summary">Summary: </div>
+              <div class="high">High: </div>
+              <div class="low">Low: </div>
+              <div class="city">City: </div>
+              <div class="state">State: </div>
+              <div class="country">Country: </div>
+              <div class="time">Time: </div>
+              <div class="date">Date: </div>
               <a href="fetch call to location">Change Location</a>
               <a href="fetch call to favorites">Favorites</a>
           </div>
